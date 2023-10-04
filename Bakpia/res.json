@@ -3,22 +3,22 @@
 
 
 "headers": {"Content-Type":"text/html; charset=UTF-8",
-"Server":"cloudflare",
-"Cf-Ray":"8101b0099c2a55fb-SIN",
-"Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=1MoQur4l6V6u8Ag6qXU6OaNUtd2CSiB0FhQQUxIu81b05Iy0chU3af%2FZ7pgmwGEcsnbcDhrLSJJUAQ3Bbox20G3ts8FO%2Bm9063oV2IbZkbb%2FFg%2FPf%2FYk%2BIjiaWXujr0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
-"Nel":"{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
-"Date":"Tue, 03 Oct 2023 02:17:15 GMT",
-"Link":"\u003chttps://bakpiaku.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://bakpiaku.com/wp-json/wp/v2/product/808\u003e; rel=\"alternate\"; type=\"application/json\", \u003chttps://bakpiaku.com/?p=808\u003e; rel=shortlink",
-"Cf-Cache-Status":"DYNAMIC",
-"Alt-Svc":"h3=\":443\"; ma=86400" }  ,
+         "Server":"cloudflare",
+         "Cf-Ray":"8101b0099c2a55fb-SIN",
+         "Report-To":"{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=1MoQur4l6V6u8Ag6qXU6OaNUtd2CSiB0FhQQUxIu81b05Iy0chU3af%2FZ7pgmwGEcsnbcDhrLSJJUAQ3Bbox20G3ts8FO%2Bm9063oV2IbZkbb%2FFg%2FPf%2FYk%2BIjiaWXujr0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+         "Nel":"{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+         "Date":"Tue, 03 Oct 2023 02:17:15 GMT",
+         "Link":"\u003chttps://bakpiaku.com/wp-json/\u003e; rel=\"https://api.w.org/\", \u003chttps://bakpiaku.com/wp-json/wp/v2/product/808\u003e; rel=\"alternate\"; type=\"application/json\", \u003chttps://bakpiaku.com/?p=808\u003e; rel=shortlink",
+         "Cf-Cache-Status":"DYNAMIC",
+         "Alt-Svc":"h3=\":443\"; ma=86400" }  ,
 
 
 "timings": {"duration":1998.1165,
-"blocked":535.4165,
-"looking_up":0,
-"connecting":253.7463,
-"tls_handshaking":280.9878,
-"sending":0.5048,
-"waiting":1603.5789,
-"receiving":394.0328}  
+        "blocked":535.4165,
+        "looking_up":0,
+        "connecting":253.7463,
+        "tls_handshaking":280.9878,
+        "sending":0.5048,
+        "waiting":1603.5789,
+        "receiving":394.0328}  
 }
