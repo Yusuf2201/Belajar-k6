@@ -11,7 +11,7 @@ export default function () {
 	  	'responnya Server adalah cloudflare': (r) => r.headers['Server'] === 'cloudflare' ,
 
 		// 'responnya blocked adalah 535.4165': (r) => r.timings.blocked === 535.4165 ,
-		//gabisa dicek karenak selalu berubah
+		//gabisa dicek karena selalu berubah // di thres
 		// 'responnya blocked adalah 535.4165': (r) => r.timings['blocked'] === 535.4165 ,
 	})
 }

@@ -129,7 +129,15 @@ export const options = {
     { duration: '10s', target: 60 },
     { duration: '5s', target: 0 },
   ],
+  thresholds: {
+    http_req_duration: ['avg<1000', 'p(90)<700'],
+    http_req_failed: ['rate<0.01'],
+    }
 };
+
+// export const options = {
+//         iterations: 2,
+//     }
 
 // console.log('chai integration');
 export default function () {
@@ -138,7 +146,6 @@ export default function () {
     const res = http.get('https://bakpiaku.com/product/bakpiaku-kumbu-hitam');
 
     expect(res.status, 'statusnya').to.equal(200);
-
     expect(res.headers.Server, 'responnya Server').to.equal('cloudflare');
   });
 
@@ -177,14 +184,15 @@ export default function () {
 
 //   console.log('metric-trend')
   // metric-trend
-  const todosAllDuration = new Trend('product_all_duration');
-  const todosDetailDuration = new Trend('product_detail_duration');
+
+  const productAllDuration = new Trend('product_all_duration');
+  const productDetailDuration = new Trend('product_detail_duration');
 
   const resAll = http.get('https://bakpiaku.com/product/');
   const resDetail = http.get('https://bakpiaku.com/product/bakpiaku-kumbu-hitam/');
 
-  todosAllDuration.add(resAll.timings.duration);
-  todosDetailDuration.add(resDetail.timings.duration);
+  productAllDuration.add(resAll.timings.duration);
+  productDetailDuration.add(resDetail.timings.duration);
 
 //   console.log('output')
   // output
